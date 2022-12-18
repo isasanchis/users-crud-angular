@@ -1,0 +1,57 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "first_name": "asdsa",
+      "avatar": "dasd",
+      "email": "asdasd",
+      "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+      },
+      "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+      }
+    },
+    {
+      "id": 3,
+      "first_name": "Emma",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg",
+      "email": "emma.wong@reqres.in"
+    },
+    {
+      "id": 4,
+      "first_name": "Lola",
+      "avatar": "asdas",
+      "email": "lola@lola.com"
+    },
+    {
+      "id": 5,
+      "first_name": "Marco",
+      "avatar": "asdasda",
+      "email": "marco@gmail.com"
+    },
+    {
+      "id": 6,
+      "first_name": "Geisa",
+      "avatar": "asdasda",
+      "email": "geisa@bol.com"
+    },
+    {
+      "id": 7,
+      "first_name": "Lola",
+      "avatar": "asdas",
+      "email": "isasanchis3@gmail.com"
+    },
+    {
+      "id": 8,
+      "first_name": "Moana",
+      "avatar": "dasdsa",
+      "email": "lola@lola.com"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<form>
+  <div class="container">
+    <div class="mb-3 row">
+      <img [src]="user.avatar" alt="User's Avatar">
+    </div>
+    <div class="mb-3 row">
+      <label for="firstName" class="col-sm-4 col-form-label">Name:</label>
+      <div class="col-sm-6">
+        <div type="text" readonly class="form-control-plaintext" id="firstName" name="firstName">{{user.first_name}}</div>
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label for="email" class="col-sm-4 col-form-label">Email:</label>
+      <div class="col-sm-6">
+        <div type="text" readonly class="form-control-plaintext" id="email" name="email">{{user.email}}</div>
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <button (click)="close()">Fechar</button>
+    </div>
+  </div>
+</form>

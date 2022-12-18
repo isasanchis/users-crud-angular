@@ -1,0 +1,28 @@
+<form>
+    <div class="container">
+      <div class="mb-3 row">
+        <label for="userFirstName" class="col-sm-4 col-form-label">Name</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="userFirstName" [(ngModel)]="user.first_name" name="userFirstName" required>
+        </div>
+      </div>
+  
+      <div class="mb-3 row">
+        <label for="avatar" class="col-sm-4 col-form-label">Avatar</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="avatar" [(ngModel)]="user.avatar" name="avatar" required>
+        </div>
+      </div>
+  
+      <div class="mb-3 row">
+        <label for="email" class="col-sm-4 col-form-label">Email</label>
+        <div class="col-sm-6">
+          <input type="email" class="form-control" id="email" [(ngModel)]="user.email" name="email" required>
+        </div>
+      </div>
+  
+      <div class="mb-3 row">
+        <button (click)="save()">Save</button>
+      </div>
+    </div>
+  </form>
